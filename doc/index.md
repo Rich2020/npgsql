@@ -11,7 +11,7 @@ Npgsql aims to be fully ADO.NET-compatible, its API should feel almost identical
 Here's a basic code snippet to get you started.
 
 ```c#
-var connString = "Host=myserver;Username=mylogin;Password=mypass;Database=mydatabase";
+var connString = "Host=myserver;Port=myport;Username=mylogin;Password=mypass;Database=mydatabase";
 
 using (var conn = new NpgsqlConnection(connString))
 {
